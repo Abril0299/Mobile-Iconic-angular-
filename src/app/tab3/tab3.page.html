@@ -1,17 +1,53 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Contacto
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="contenedor">
+    <h1 id="titulo">Redes Sociales</h1>
+    <div class="contenedores">
+        <ul>
+            <li>
+                <img src="../../../assets/facebook.png" width="32" height="32">
+                <p><a href="https://www.facebook.com/avril.Heernaandez/" target="_blank">Sigueme en Facebook</a></p>
+            </li>
+            <li>
+                <img src="../../../assets/instagram.png" width="32" height="32">
+                <p><a href="https://www.instagram.com/abril.hernandezh/" target="_blank">Sigueme en Instagram</a></p>
+            </li>
+            <li>
+                <img src="../../../assets/whats.png" width="32" height="32">
+                <p><a>Escribeme por whats ! 5545489531</a></p>
+            </li>
+            <li>
+                <img src="../../../assets/gmail.png" width="32" height="32">
+                <p><a>Gmail : abril.hernandez.h02@gmail.com"</a></p>
+            </li>
+        
+        </ul>
+    </div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <div class="formulario3"> <!--FORMULARIO CON NG MODEL-->
+      <h1>Tus redes</h1>
+      <p class="p">¿Tienes facebook?</p>
+      <select name="" id="" [(ngModel)] ="select">
+          <option value="Si">Si</option>
+          <option value="No">No</option>
+      </select>
+      <p class="p">Ingresa tu Facebook:</p>
+      <input type="text" [(ngModel)] ="facebook"  placeholder="@Avril Hernández">
+      <p class="p">Ingresa tu Instagram:</p>
+      <input type="text" [(ngModel)] ="instagram"  placeholder="@a_hernandez">
+      <p class="p">Ingresa tu Whats:</p>
+      <input type="text" [(ngModel)] ="whats"  placeholder="">
+      <h2 class="h2">Redes Sociales : {{facebook}} <br>  {{instagram}} <br>  {{whats}} </h2>
+   
+  </div>
+
+
+    </div>
 </ion-content>

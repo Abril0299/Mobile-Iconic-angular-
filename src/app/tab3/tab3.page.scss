@@ -1,0 +1,86 @@
+
+.contenedor{
+    overflow: hidden;
+}
+
+.contenedor h1{
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+   
+}
+
+.contenedores{
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(252, 252, 159);
+    width: 380px;
+    height: 300px;
+}
+
+.contenedores ul{
+padding: 0px;
+}
+.contenedores li{
+    list-style-type:none;
+    width: 100px;
+
+    
+}
+
+
+.contenedores li img{ 
+
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.contenedores li p{
+    padding-top:5px;
+    line-height:40px;
+    font-size:12px;
+    font-family: 'Handlee', cursive;
+    width: 370px;
+}
+.contenedores li p a{
+    width: 300px;
+    margin-left: 40px;
+    text-decoration:none;
+    font-size: 16px;
+    color:#000000;
+}
+
+.formulario3{
+    margin-top: 30px;
+    font-family: 'Handlee', cursive;
+    width: 300px;
+    height: 450px;
+    background-color: bisque;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 10px;
+ 
+}
+.formulario3 h1{
+    font-size: 20px;
+    color: salmon;
+    font-family: 'Handlee', cursive;
+}
+
+
+
+.p{
+    font-size: 15px;
+    color: black;
+    font-family: 'Handlee', cursive; 
+}
+
+.h2{
+    font-size: 15px;
+    color: black;
+    font-family: 'Handlee', cursive; 
+}
