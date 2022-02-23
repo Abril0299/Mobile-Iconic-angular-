@@ -1,17 +1,45 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-title class="titulo">
+      Mi perfil ♥
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+  <ion-content [fullscreen]="true">
+    <div class="contenedor">
+    <h1 >Avril Hernández </h1>
+            <h2>App developer</h2>
+            <div>
+              <img src="../../../assets/Yo.jpg">
+            </div>
+            <div class="info">
+              <h1>Edad: 22 Años <br> Ciudad de México <br> Ingeniería en Computación IPN </h1> 
+            
+            </div>
+
+            
+  
+            <div id="boton1" >
+              <button class="boton" (click)="MostrarLikes()">Ver me gusta</button>
+            </div>
+  
+  
+
+            
+              <div class="MeGusta" *ngFor="let megusta of likes">
+
+                <h1>{{megusta.nombre}}</h1> 
+                <h2>{{megusta.ocupacion}}</h2> 
+                <img src={{megusta.imagen}}> 
+
+              </div>
+              
+            
+          
+  
+          </div>
+  </ion-content>
+
+

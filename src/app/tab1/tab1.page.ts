@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { UserService } from '../services/user.service';
+
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -7,6 +9,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  constructor(private UserService:UserService) {}
+
+
+  MeGusta(numero:number){
+  
+    this.UserService.addMegusta(numero);
+  }
 
 }
