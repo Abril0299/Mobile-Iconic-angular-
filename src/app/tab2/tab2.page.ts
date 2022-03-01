@@ -8,14 +8,12 @@ import { User } from '../interface/user';
 })
 export class Tab2Page {
 
-  likes:User []= [];
-
   constructor(private UserService:UserService) {}
 
 
-
-  MostrarLikes(){
-
-    this.likes=this.UserService.getAll();
+  MeGusta(numero:number){
+  
+    this.UserService.addMegusta(numero);
   }
+  
 }

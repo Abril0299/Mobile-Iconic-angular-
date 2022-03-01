@@ -1,150 +1,30 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title id="titulo">
-      Photos Tinder
+    <ion-title class="titulo">
+      Tinder de Fotos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <div class="contenedor">
+<ion-content class="auth-form">
+  <ion-grid class="contenedor">
     
-      <ion-slide>
-        <div class="first">
-          <h1>Alejandro Speitzer</h1>
-          <h2>Actor</h2>
-          <img src="../../../assets/1.jpg">
+
+    <ion-row>
+      <ion-col align-self-center>
+        <div class="botondiv">
+          <div class="imagen">
+            <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/200/000000/external-user-interface-kiranshastry-gradient-kiranshastry-1.png"/>
+          </div>
+          
           <div>
-            <button (click)="MeGusta(1)">♥</button>
+            <button id="boton" [routerLink]="['/iniciarsesion']" >Iniciar sesion</button>
           </div>
-         
-        </div>
-      </ion-slide>
-  
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Chris Evans</h1>
-          <h2>Actor</h2>
-          <img src="../../../assets/5.png">
-          <div >
-            <button (click)="MeGusta(2)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Jason Momoa </h1>
-          <h2>Actor</h2>
-          <img src="../../../assets/6.jpg">
           <div>
-            <button (click)="MeGusta(3)">♥</button>
+            <button id="boton2" [routerLink]="['/registro']" >Registro</button>
           </div>
         </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Henry Cavill</h1>
-          <h2>Actor</h2>
-          <img src="../../../assets/7.png">
-          <div>
-            <button (click)="MeGusta(4)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Mishi Momido </h1>
-          <h2>Mascota</h2>
-          <img src="../../../assets/8.jpg">
-          <div>
-            <button (click)="MeGusta(5)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1></h1>
-          <h2>Actor</h2>Jamie Dornan
-          <img src="../../../assets/9.jpg">
-          <div>
-            <button (click)="MeGusta(6)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Tom Holland</h1>
-          <h2>Actor</h2>
-          <img src="../../../assets/10.jpg">
-          <div>
-            <button (click)="MeGusta(7)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>AuronPlay</h1>
-          <h2>Gameplay</h2>
-          <img src="../../../assets/11.jpg">
-          <div>
-            <button (click)="MeGusta(8)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1> Michael B. Jordan</h1>
-          <h2>Actor</h2>
-          <img src="../../../assets/12.jpg">
-          <div>
-            <button (click)="MeGusta(9)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Zendaya Maree</h1>
-          <h2>Actriz</h2>
-          <img src="../../../assets/13.jpg">
-          <div>
-            <button (click)="MeGusta(10)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Ester Exposito</h1>
-          <h2>Actriz</h2>
-          <img src="../../../assets/14.jpg">
-          <div>
-            <button (click)="MeGusta(11)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      <ion-slide>
-        <div class="first">
-          <h1>Roos Lynch</h1>
-          <h2>Cantante</h2>
-          <img src="../../../assets/15.jpg">
-          <div>
-            <button (click)="MeGusta(12)">♥</button>
-          </div>
-        </div>
-      </ion-slide>
-  
-      
-    
-  </div>
-  
+  </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

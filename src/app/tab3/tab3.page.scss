@@ -1,0 +1,115 @@
+.titulo1{
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background: bisque;
+    height: 50px;
+}
+
+.contenedor h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #000000;
+    font-family: 'Cabin', sans-serif;
+}
+
+.contenedor h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #2ac9c3;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.imagen{
+   
+    width: 148px;
+    margin: 0px auto;
+}
+img{
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.info h1{
+    margin: 0px auto;
+    font-size:15px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: #f3aec5 2px 3px 8px;
+    width: 300px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cabin', sans-serif;
+
+}
+.boton1{  
+    margin: 0px auto;
+    width: 150px;
+}
+
+.boton2{  
+    margin: 0px auto;
+    width: 160px;
+}
+
+.boton{
+       
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   margin: 0px auto;
+  background: #94faf7;
+   border-radius: 28px;
+   color: #000000;
+   font-size: 20px;
+   font-family: 'Cabin', sans-serif;
+   padding: 19px;
+  margin-bottom: 20px;
+   
+}
+.boton:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(243, 149, 235);
+    transition: all 0.2s ease;
+  }
+
+
+
+.MeGusta{
+    overflow: hidden;
+    margin-left: 20px;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    }
+    
+    .MeGusta h1{
+        font-size: 20px;
+        margin-bottom: 0px;
+        color: rgb(0, 0, 0);
+        font-family: 'Cabin', sans-serif;
+    }
+    
+    .MeGusta h2{
+        
+        margin-top: 0px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .MeGusta img{
+      
+     
+      
+       margin: 0px 0px 0px 0px;
+       width:350px ;
+       margin-left: 30px;
+    
+    }

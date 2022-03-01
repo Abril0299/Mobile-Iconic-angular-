@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="titulo">Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+  <ion-content class="contenido">
+<div> 
+  <form [formGroup]="formulario" (ngSubmit)="guardar()">
+    <ion-item  lines="full">
+      <ion-label class="label" position="floating" >Nombre:</ion-label>
+      <ion-input inputmode="text" formControlName="nombre"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label class="label" position="floating">Apellido:</ion-label>
+      <ion-input inputmode="text" formControlName="apellido"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label class="label" position="floating">Email:</ion-label>
+      <ion-input inputmode="email" formControlName="email"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label class="label" position="floating">Password:</ion-label>
+      <ion-input inputmode="password" formControlName="password"></ion-input>
+    </ion-item>
+
+ 
+    <ion-item lines="full">
+      <ion-label class="label" position="floating">Nombre de Usuario:</ion-label>
+      <ion-input inputmode="nombreusu" formControlName="nombreusu"></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <div class="div">
+          <button  type="submit" color="danger" expand="block">Registrarme !</button>
+        </div>
+        
+      </ion-col>
+    </ion-row>
+
+  </form>
+
+
+  
+  <div id="usuarios">
+      <br>
+      <a [routerLink]="['/usuarios']"> Ver usuarios registrados </a>
+  </div> 
+</div>
+    
+  </ion-content>
+
+

@@ -1,0 +1,40 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title class="titulo">Usuarios</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    <div><p>Lista de Usuaros registrados en la Api</p></div>
+      
+  
+    <div class="row">
+        <div class="col-12">
+            <table >
+                <thead>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    
+                </thead>
+                <tbody *ngFor="let usuario of arreglo">
+                    <tr>
+      
+                        <td>{{usuario['nombre']}}</td>
+                
+                        <td>{{usuario['apellido']}}</td>
+                        
+                        <td>{{usuario['email']}}</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+    
+        </div>
+    
+    </div>
+  
+</ion-content>

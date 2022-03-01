@@ -90,7 +90,6 @@ export class UserService {
 
   getAll(){
     return this.nuevoUsuario[0].likes;
-    console.log('Entre a me gusta')
   }
 
   addMegusta(userlike:number){
