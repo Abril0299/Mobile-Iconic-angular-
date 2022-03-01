@@ -4,12 +4,20 @@
   </ion-toolbar>
 </ion-header>
 
+  
+  <ion-content [fullscreen]="true" >
 
-  <ion-content [fullscreen]="true">
+ 
     <div class="contenedor">
 
-<div>
-  <h1 >{{perfilUsuarioRegis.nombre}} {{perfilUsuarioRegis.apellido}}</h1>
+    
+
+
+  <div>
+    <div class="boton2" >
+      <button class="botonsesion" [routerLink]="['']" ></button>
+    </div>
+  <h1 class="nusuario">{{perfilUsuarioRegis.nombre}} {{perfilUsuarioRegis.apellido}}</h1>
   <h2>{{perfilUsuarioRegis.nombreusu}}</h2>
 
   <div class="imagen">
@@ -17,29 +25,22 @@
   </div>
 
   <div class="info">
-    <h1> Email: {{perfilUsuarioRegis.nombre}}</h1> 
+    <h1> Email: {{perfilUsuarioRegis.email}}</h1> 
   </div>
-
 </div>
     
-  
-<div class="boton1" >
+  <div class="boton1" >
   <button class="boton" (click)="MostrarLikes()">Ver me gusta</button>
-</div>
+  </div>
 
-
-
- <div class="MeGusta" *ngFor="let megusta of likes">
+  <div class="MeGusta" *ngFor="let megusta of likes">
     <h1>{{megusta.nombre}}</h1> 
     <h2>{{megusta.ocupacion}}</h2> 
     <img src={{megusta.imagen}}> 
- </div>
-</div>
+  </div>
 
-
-<div class="boton2" >
-  <button class="boton" [routerLink]="['']" >Cerrar sessión</button>
 </div>
 
   </ion-content>
+
 

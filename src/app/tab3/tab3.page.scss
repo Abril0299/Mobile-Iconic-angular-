@@ -1,5 +1,6 @@
 .titulo1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    
 }
 .titulo{
     font-family: 'Cabin', sans-serif;
@@ -10,6 +11,7 @@
 }
 
 .contenedor h1{
+    
     font-size: 30px;
     text-align: center;
     margin-bottom: 0px;
@@ -18,13 +20,22 @@
 }
 
 .contenedor h2{
-    margin-top: 0px;
-    text-align: center;
-    font-size: 18px;
+    padding: 10px;
     color: #2ac9c3;
+    text-align: center;
+    width: 300px;
+    margin: 0px auto;
+    font-size: 18px;
     font-family: 'Cabin', sans-serif;
 }
 
+.nusuario{
+    padding: 10px;
+    color: #2ac9c3;
+    text-align: center;
+    width: 300px;
+    margin: 0px auto;
+}
 
 .imagen{
    
@@ -41,10 +52,11 @@ img{
 
 .info h1{
     margin: 0px auto;
+    
     font-size:15px;
     text-align: center;
     margin-bottom: 20px;
-    box-shadow: #f3aec5 2px 3px 8px;
+    box-shadow: #8a8989 2px 3px 8px;
     width: 300px;
     padding: 10px;
     color: rgb(0, 0, 0);
@@ -63,7 +75,7 @@ img{
 
 .boton{
        
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    margin: 0px auto;
   background: #94faf7;
    border-radius: 28px;
@@ -74,6 +86,23 @@ img{
   margin-bottom: 20px;
    
 }
+
+.boton2{
+    background-image:url("https://img.icons8.com/ios/20/000000/shutdown--v1.png");  
+    background-repeat:no-repeat;
+    height:2px;
+    width:1px;
+    border-radius: 25px;
+    background-position:center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 10px;
+    margin-right:18px ;
+    float: right;
+  padding: 15px;
+    margin-bottom: 20px;
+   
+}
+
 .boton:hover {
     color: rgba(255, 255, 255, 1) !important;
     box-shadow: 0 4px 16px rgb(243, 149, 235);
@@ -113,3 +142,4 @@ img{
        margin-left: 30px;
     
     }
+    

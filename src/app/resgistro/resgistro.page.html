@@ -11,7 +11,7 @@
 
   <ion-content class="contenido">
 <div> 
-  <form [formGroup]="formulario" (ngSubmit)="guardar()">
+  <form [formGroup]="formulario" (ngSubmit)="guardar()" >
     <ion-item  lines="full">
       <ion-label class="label" position="floating" >Nombre:</ion-label>
       <ion-input inputmode="text" formControlName="nombre"></ion-input>
@@ -37,6 +37,8 @@
       <ion-label class="label" position="floating">Nombre de Usuario:</ion-label>
       <ion-input inputmode="nombreusu" formControlName="nombreusu"></ion-input>
     </ion-item>
+
+  
 
     <ion-row>
       <ion-col>
